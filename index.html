@@ -69,7 +69,7 @@
 
 
     function actualizarUbicacionEnBaseDeDatos() {
-      const urlParams = "https://smartpet-1d59e-default-rtdb.firebaseio.com/smartpet/mascotas/468/datosMascotas.json";
+      const urlParams = "https://smartpet-1d59e-default-rtdb.firebaseio.com/smartpet/mascotas/24/datosMascotas.json";
       fetch(urlParams, {
         method: 'PATCH',
         headers: {
@@ -236,7 +236,7 @@
 
     // Función para obtener los datos de Firebase y guardarlos en la variable "datosMascota"
     function obtenerDatosMascotas() {
-      const url = "https://smartpet-1d59e-default-rtdb.firebaseio.com/smartpet/mascotas/468.json";
+      const url = "https://smartpet-1d59e-default-rtdb.firebaseio.com/smartpet/mascotas/24.json";
 
       fetch(url)
         .then((response) => response.json())
